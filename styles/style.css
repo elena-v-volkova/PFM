@@ -124,7 +124,7 @@ body {
 
 .map-visual {
     flex: 0 0 65%;
-    background: url(../assets/img/map.jpg);
+    background: url(../assets/img/Map.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     border-radius: 32px 0 0 32px;
