@@ -478,7 +478,7 @@ adress {
     animation: blink 3s infinite;
 }
 
-/* 
+
 @keyframes blink {
 
     0%,
@@ -492,7 +492,7 @@ adress {
     55% {
         opacity: 1;
     }
-} */
+}
 
 .header__contacts_bg {
     display: flex;
@@ -648,7 +648,7 @@ adress {
     animation: slide-blink 3s linear infinite;
 }
 
-/* @keyframes slide-blink {
+@keyframes slide-blink {
     0% {
         left: -100%;
     }
@@ -660,7 +660,7 @@ adress {
     100% {
         left: 102%;
     }
-} */
+}
 
 
 
