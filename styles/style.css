@@ -2563,6 +2563,7 @@ box-shadow: -2px -4px 4px 0px #000000 inset;
     }
 
     .steps__blocks {
+        overflow: hidden;
         position: relative;
         flex-direction: column;
         padding-top: 80px;
@@ -2600,6 +2601,11 @@ box-shadow: -2px -4px 4px 0px #000000 inset;
 
     .conditions__description {
         flex-direction: column;
+    }
+
+    .conditions__deadline svg {
+        height: 16px;
+        width: 268px;
     }
 
     .footer__nav {
