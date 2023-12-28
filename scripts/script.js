@@ -1,9 +1,11 @@
 // Accordion
 const accordion = document.getElementsByClassName('acc-container');
-for (i = 0; i < accordion.length; i++) {
-    accordion[i].addEventListener('click', function () {
-        this.classList.toggle('active')
-    })
+if (window.innerWidth > 1080) {
+    for (i = 0; i < accordion.length; i++) {
+        accordion[i].addEventListener('click', function () {
+            this.classList.toggle('active')
+        })
+    }
 }
 
 //smoothScroll
@@ -150,3 +152,77 @@ function createModal(content) {
     }
     modalWrapper.addEventListener('click', handleModalClick);
 }
+
+
+
+//адаптив
+const aboutTextBlock = document.querySelector('.about__text');
+const aboutBlock = document.querySelector(".about__container");
+
+function addAboutSpoilerButton() {
+    const btn = document.createElement('button');
+    btn.innerHTML = `Развернуть описание <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M1.83301 1.33337L15.1663 14.6667M15.1663 14.6667V1.33337M15.1663 14.6667H1.83301" stroke="#1E1E1E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>`;
+    btn.classList.add('mobile-about-btn');
+
+    aboutBlock.appendChild(btn);
+}
+
+function changeHeroCtaBtn() {
+    const btn = document.getElementById('hero-cta');
+    btn.innerHTML = "Заказать"
+}
+
+function changeAboutText() {
+    const devCircle = document.getElementById('dev-cycle');
+    const rightsCircle = document.getElementById('dev-rights');
+
+    devCircle.innerText = "полный DEV-цикл";
+    rightsCircle.innerText = "передача прав"
+
+}
+
+function addAboutSpoiler() {
+    const aboutContainerStyles = window.getComputedStyle(aboutBlock);
+    console.log(aboutContainerStyles.height)
+
+    const aboutBlockHeight = aboutTextBlock.scrollHeight - aboutBlock.offsetHeight;
+    console.log(aboutBlockHeight);
+
+
+
+    // console.log(document.querySelector(".about__container").offsetHeight)
+    // console.log(aboutTextBlock.scrollHeight);
+    // console.log(aboutTextBlock.textContent.split("\n").length);
+}
+
+function addTabletSquareHeading() {
+    const el = document.querySelector('.steps__details-squares');
+    const heading = document.createElement('h3');
+    heading.classList.add('thin-heading');
+    heading.innerText = 'Преимущества';
+
+    el.prepend(heading);
+}
+
+function changeStepsHeading() {
+    const stepsHeading = document.getElementById('steps-heading');
+    stepsHeading.innerText = 'основные этапы разработки';
+}
+
+if (window.innerWidth <= 1440) {
+    changeAboutText();
+    addTabletSquareHeading()
+}
+
+
+if (window.innerWidth <= 1080) {
+    addAboutSpoilerButton();
+    changeHeroCtaBtn();
+    changeAboutText();
+    addAboutSpoiler();
+    changeStepsHeading();
+}
+
+

@@ -1,17 +1,25 @@
-<!DOCTYPE html>
+<!DOCTYpE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/style.css">
-    <title>PFM DEV</title>
+    <title>pFM DEV</title>
 </head>
 <body>
     <script src="./scripts/script.js" defer></script>
         <header class="header" id="header">
         <div class="container header__container">
-            <img src="./assets/svg/main-logo.svg" alt="PFM DEV Логотип" class="header-logo">
+            <span class="header-logo">
+                <p class="header-description">
+                    Студия разработки и дизайна
+                </p>
+            </span>
+            <!-- <img src="./assets/svg/main-logo.svg" alt="pFM DEV Логотип" class="header-logo"> -->
+            <div class="header__burger">
+                <span></span>
+            </div>
             <nav class="nav">
                 <ul class="header__nav-list">
                     <li>
@@ -98,10 +106,10 @@
                 <button class="btn button btn-icon map-ico map-btn">       
                     <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="20" cy="20" r="20" fill="#1E1E1E"/>
-                        <linearGradient id="gradientHover" x1="0" y1="0" x2="100%" y2="100%">
+                        <lineargradient id="gradientHover" x1="0" y1="0" x2="100%" y2="100%">
                                     <stop offset="0%" stop-color="#9011A5"/>
                                     <stop offset="100%" stop-color="#201DC1"/>
-                        </linearGradient>
+                        </lineargradient>
                         <path d="M28.2042 17.0272C28.2042 18.4857 27.5387 20.4224 26.0667 22.8775C24.6976 25.1611 22.6725 27.8252 19.9771 30.8731C17.2817 27.8252 15.2567 25.1611 13.8875 22.8775C12.4155 20.4224 11.75 18.4857 11.75 17.0272C11.75 12.4519 15.4373 8.75 19.9771 8.75C24.5169 8.75 28.2042 12.4519 28.2042 17.0272Z" stroke="#FFFEFE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                         <path d="M22.9673 16.977C22.9673 18.6286 21.6284 19.9675 19.9768 19.9675C18.3252 19.9675 16.9863 18.6286 16.9863 16.977C16.9863 15.3255 18.3252 13.9866 19.9768 13.9866C21.6284 13.9866 22.9673 15.3255 22.9673 16.977Z" stroke="#FFFEFE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>               
@@ -109,10 +117,10 @@
                 <button class="btn button btn-icon chat-ico">
                     <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="20" cy="20" r="20" fill="#1E1E1E"/>
-                        <linearGradient id="gradientHover" x1="0" y1="0" x2="100%" y2="100%">
+                        <lineargradient id="gradientHover" x1="0" y1="0" x2="100%" y2="100%">
                             <stop offset="0%" stop-color="#9011A5"/>
                             <stop offset="100%" stop-color="#201DC1"/>
-                         </linearGradient>
+                         </lineargradient>
                         <path d="M20.3077 9C15.1911 9 11 13.1911 11 18.3077V23.3846C11 24.4787 11.7139 25.4108 12.6923 25.7644V25.9231C12.6923 28.2467 14.5995 30.1538 16.9231 30.1538H18.0072C18.3014 30.6596 18.8368 31 19.4615 31H21.1538C22.0859 31 22.8462 30.2398 22.8462 29.3077C22.8462 28.3756 22.0859 27.6154 21.1538 27.6154H19.4615C18.8368 27.6154 18.3014 27.9558 18.0072 28.4615H16.9231C15.5216 28.4615 14.3846 27.3245 14.3846 25.9231H16.0769V18.3077H12.6923C12.6923 14.1166 16.1166 10.6923 20.3077 10.6923C24.4988 10.6923 27.9231 14.1166 27.9231 18.3077H24.5385V25.9231H27.0769C28.4684 25.9231 29.6154 24.7761 29.6154 23.3846V18.3077C29.6154 13.1911 25.4243 9 20.3077 9ZM12.6923 20H14.3846V24.2308H13.5385C13.0691 24.2308 12.6923 23.854 12.6923 23.3846V20ZM26.2308 20H27.9231V23.3846C27.9231 23.854 27.5463 24.2308 27.0769 24.2308H26.2308V20Z" fill="#FFFEFE"/>
                     </svg>                        
                 </button>
@@ -138,7 +146,7 @@
     <main> 
         <button class="sticky-chat"></button>
         <section class="hero">
-            <h1 class="visually-hidden">PFM DEV</h1>
+            <h1 class="visually-hidden">pFM DEV</h1>
             <div class="hero__main">
                 <div class=" hero__main-container">
                     <svg width="366" height="367" viewBox="0 0 366 367" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -154,7 +162,7 @@
                         </g>
                         <defs>
 
-                        <linearGradient id="paint0_linear_304_862" y1="50%" x1="0%" y2="50%" x2="100%" > 
+                        <lineargradient id="paint0_linear_304_862" y1="50%" x1="0%" y2="50%" x2="100%" > 
             
                             <stop offset="0%" stop-color="#9011A5">
                                 <animate attributeName="stop-color" values="#9011A5; #201DC1; #9011A5" dur="8s" repeatCount="indefinite"></animate>
@@ -164,9 +172,9 @@
                                 <animate attributeName="stop-color" values="#131173; #2A5EE2; #131173" dur="8s" repeatCount="indefinite"></animate>
                             </stop>
                 
-                        </linearGradient> 
+                        </lineargradient> 
 
-                        <linearGradient id="paint1_linear_304_862" y1="50%" x1="0%" y2="50%" x2="100%" > 
+                        <lineargradient id="paint1_linear_304_862" y1="50%" x1="0%" y2="50%" x2="100%" > 
             
                             <stop offset="0%" stop-color="#9011A5">
                                 <animate attributeName="stop-color" values="#9011A5; #201DC1; #9011A5" dur="8s" repeatCount="indefinite"></animate>
@@ -176,14 +184,14 @@
                                 <animate attributeName="stop-color" values="#131173; #2A5EE2; #131173" dur="8s" repeatCount="indefinite"></animate>
                             </stop>
                 
-                        </linearGradient> 
+                        </lineargradient> 
 
-                        <!-- <linearGradient id="paint1_linear_304_862" x1="254.423" y1="13.7371" x2="272.441" y2="14.2153" gradientUnits="userSpaceOnUse">
+                        <!-- <lineargradient id="paint1_linear_304_862" x1="254.423" y1="13.7371" x2="272.441" y2="14.2153" gradientUnits="userSpaceOnUse">
                         <stop stop-color="#9011A5"/>
                         <stop offset="1" stop-color="#201DC1"/>
-                        </linearGradient> -->
+                        </lineargradient> -->
 
-                        <linearGradient id="paint2_linear_304_862" y1="50%" x1="0%" y2="50%" x2="100%" > 
+                        <lineargradient id="paint2_linear_304_862" y1="50%" x1="0%" y2="50%" x2="100%" > 
             
                             <stop offset="0%" stop-color="#9011A5">
                                 <animate attributeName="stop-color" values="#9011A5; #201DC1; #9011A5" dur="8s" repeatCount="indefinite"></animate>
@@ -193,10 +201,10 @@
                                 <animate attributeName="stop-color" values="#131173; #2A5EE2; #131173" dur="8s" repeatCount="indefinite"></animate>
                             </stop>
                 
-                        </linearGradient> 
+                        </lineargradient> 
 
 
-                        <linearGradient id="paint3_linear_304_862" y1="50%" x1="0%" y2="50%" x2="100%" > 
+                        <lineargradient id="paint3_linear_304_862" y1="50%" x1="0%" y2="50%" x2="100%" > 
             
                             <stop offset="0%" stop-color="#9011A5">
                                 <animate attributeName="stop-color" values="#9011A5; #201DC1; #9011A5" dur="8s" repeatCount="indefinite"></animate>
@@ -206,10 +214,10 @@
                                 <animate attributeName="stop-color" values="#131173; #2A5EE2; #131173" dur="8s" repeatCount="indefinite"></animate>
                             </stop>
                 
-                        </linearGradient> 
+                        </lineargradient> 
 
 
-                        <linearGradient id="paint4_linear_304_862" y1="50%" x1="0%" y2="50%" x2="100%" > 
+                        <lineargradient id="paint4_linear_304_862" y1="50%" x1="0%" y2="50%" x2="100%" > 
             
                             <stop offset="0%" stop-color="#9011A5">
                                 <animate attributeName="stop-color" values="#9011A5; #201DC1; #9011A5" dur="8s" repeatCount="indefinite"></animate>
@@ -219,10 +227,10 @@
                                 <animate attributeName="stop-color" values="#131173; #2A5EE2; #131173" dur="8s" repeatCount="indefinite"></animate>
                             </stop>
                 
-                        </linearGradient> 
+                        </lineargradient> 
 
 
-                        <linearGradient id="paint5_linear_304_862" y1="50%" x1="0%" y2="50%" x2="100%" > 
+                        <lineargradient id="paint5_linear_304_862" y1="50%" x1="0%" y2="50%" x2="100%" > 
             
                             <stop offset="0%" stop-color="#9011A5">
                                 <animate attributeName="stop-color" values="#9011A5; #201DC1; #9011A5" dur="8s" repeatCount="indefinite"></animate>
@@ -232,10 +240,10 @@
                                 <animate attributeName="stop-color" values="#131173; #2A5EE2; #131173" dur="8s" repeatCount="indefinite"></animate>
                             </stop>
                 
-                        </linearGradient> 
+                        </lineargradient> 
 
 
-                        <linearGradient id="paint6_linear_304_862" y1="50%" x1="0%" y2="50%" x2="100%" > 
+                        <lineargradient id="paint6_linear_304_862" y1="50%" x1="0%" y2="50%" x2="100%" > 
             
                             <stop offset="0%" stop-color="#9011A5">
                                 <animate attributeName="stop-color" values="#9011A5; #201DC1; #9011A5" dur="8s" repeatCount="indefinite"></animate>
@@ -245,10 +253,10 @@
                                 <animate attributeName="stop-color" values="#131173; #2A5EE2; #131173" dur="8s" repeatCount="indefinite"></animate>
                             </stop>
                 
-                        </linearGradient> 
+                        </lineargradient> 
 
 
-                        <linearGradient id="paint7_linear_304_862" y1="50%" x1="0%" y2="50%" x2="100%" > 
+                        <lineargradient id="paint7_linear_304_862" y1="50%" x1="0%" y2="50%" x2="100%" > 
             
                             <stop offset="0%" stop-color="#9011A5">
                                 <animate attributeName="stop-color" values="#9011A5; #201DC1; #9011A5" dur="8s" repeatCount="indefinite"></animate>
@@ -258,41 +266,45 @@
                                 <animate attributeName="stop-color" values="#131173; #2A5EE2; #131173" dur="8s" repeatCount="indefinite"></animate>
                             </stop>
                 
-                        </linearGradient> 
+                        </lineargradient> 
 
-                        <clipPath id="clip0_304_862">
+                        <clippath id="clip0_304_862">
                             
                         <rect width="366" height="366" fill="white" transform="translate(0 0.5)"/>
-                        </clipPath>
+                        </clippath>
                         </defs>
                     </svg>
                     <div class="hero__hero-text">
                             <div class="hero__hero-text_position">
                                 <div class="hero__hero-text_top-line">
-                                    <span class="hero__text-letter dev-letter">
-                                        D
+                                    <span class="dev-letter-wrapper">
+                                        <span class="hero__text-letter dev-letter">
+                                            D
+                                        </span>
                                     </span>
+
                                     <span class="hero__text-letter">
+                                        <span>W</span>
                                         <svg width="66" height="52" viewBox="0 0 66 52" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <g filter="url(#filter0_ii_1101_446)">
-                                            <path d="M54.9023 0.179688H65.9062L51.3164 52H40.9805L34.7227 21.6953L32.8945 11.6758L31.0664 21.6953L24.8086 52H14.7539L0.0585938 0.179688H11.5547L18.4102 29.8516L19.8867 38.1133L21.3984 30.0273L27.2344 0.179688H38.6602L44.8125 29.8516L46.3945 38.1133L47.9766 30.168L54.9023 0.179688Z" fill="#1E1E1E"/>
+                                            <path d="M54.9023 0.179688H65.9062L51.3164 52H40.9805L34.7227 21.6953L32.8945 11.6758L31.0664 21.6953L24.8086 52H14.7539L0.0585938 0.179688H11.5547L18.4102 29.8516L19.8867 38.1133L21.3984 30.0273L27.2344 0.179688H38.6602L44.8125 29.8516L46.3945 38.1133L47.9766 30.168L54.9023 0.179688Z" fill="#1E1E1E"></path>
                                             </g>
                                             <defs>
                                             <filter id="filter0_ii_1101_446" x="-1.94141" y="-3.82031" width="69.8477" height="59.8203" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-                                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-                                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-                                            <feOffset dx="2" dy="4"/>
-                                            <feGaussianBlur stdDeviation="2"/>
-                                            <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
-                                            <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.2 0"/>
-                                            <feBlend mode="normal" in2="shape" result="effect1_innerShadow_1101_446"/>
-                                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-                                            <feOffset dx="-2" dy="-4"/>
-                                            <feGaussianBlur stdDeviation="2"/>
-                                            <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
-                                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0"/>
-                                            <feBlend mode="normal" in2="effect1_innerShadow_1101_446" result="effect2_innerShadow_1101_446"/>
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feBlend>
+                                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"></feColorMatrix>
+                                            <feOffset dx="2" dy="4"></feOffset>
+                                            <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+                                            <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"></feComposite>
+                                            <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.2 0"></feColorMatrix>
+                                            <feBlend mode="normal" in2="shape" result="effect1_innerShadow_1101_446"></feBlend>
+                                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"></feColorMatrix>
+                                            <feOffset dx="-2" dy="-4"></feOffset>
+                                            <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+                                            <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"></feComposite>
+                                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0"></feColorMatrix>
+                                            <feBlend mode="normal" in2="effect1_innerShadow_1101_446" result="effect2_innerShadow_1101_446"></feBlend>
                                             </filter>
                                             </defs>
                                         </svg>
@@ -300,165 +312,172 @@
                                  </div>
                                  <div class="hero__hero-text_middle-line">
                                     <span class="hero__text-letter">
-                                        <span class="hero__text_normal-letter">
+                                            <span>M</span>
                                             <svg width="51" height="52" viewBox="0 0 51 52" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <g filter="url(#filter0_ii_1101_1303)">
-                                                <path d="M10.4102 52H0.320312V0.179688H16.0703L25.4922 40.9258L34.8438 0.179688H50.418V52H40.3281V16.9492C40.3281 15.9414 40.3398 14.5352 40.3633 12.7305C40.3867 10.9023 40.3984 9.49609 40.3984 8.51172L30.5898 52H20.0781L10.3398 8.51172C10.3398 9.49609 10.3516 10.9023 10.375 12.7305C10.3984 14.5352 10.4102 15.9414 10.4102 16.9492V52Z" fill="#1E1E1E"/>
+                                                <path d="M10.4102 52H0.320312V0.179688H16.0703L25.4922 40.9258L34.8438 0.179688H50.418V52H40.3281V16.9492C40.3281 15.9414 40.3398 14.5352 40.3633 12.7305C40.3867 10.9023 40.3984 9.49609 40.3984 8.51172L30.5898 52H20.0781L10.3398 8.51172C10.3398 9.49609 10.3516 10.9023 10.375 12.7305C10.3984 14.5352 10.4102 15.9414 10.4102 16.9492V52Z" fill="#1E1E1E"></path>
                                                 </g>
                                                 <defs>
                                                 <filter id="filter0_ii_1101_1303" x="-1.67969" y="-3.82031" width="54.0977" height="59.8203" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                                                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-                                                <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-                                                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-                                                <feOffset dx="2" dy="4"/>
-                                                <feGaussianBlur stdDeviation="2"/>
-                                                <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
-                                                <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.2 0"/>
-                                                <feBlend mode="normal" in2="shape" result="effect1_innerShadow_1101_1303"/>
-                                                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-                                                <feOffset dx="-2" dy="-4"/>
-                                                <feGaussianBlur stdDeviation="2"/>
-                                                <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
-                                                <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0"/>
-                                                <feBlend mode="normal" in2="effect1_innerShadow_1101_1303" result="effect2_innerShadow_1101_1303"/>
+                                                <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                                                <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feBlend>
+                                                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"></feColorMatrix>
+                                                <feOffset dx="2" dy="4"></feOffset>
+                                                <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+                                                <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"></feComposite>
+                                                <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.2 0"></feColorMatrix>
+                                                <feBlend mode="normal" in2="shape" result="effect1_innerShadow_1101_1303"></feBlend>
+                                                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"></feColorMatrix>
+                                                <feOffset dx="-2" dy="-4"></feOffset>
+                                                <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+                                                <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"></feComposite>
+                                                <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0"></feColorMatrix>
+                                                <feBlend mode="normal" in2="effect1_innerShadow_1101_1303" result="effect2_innerShadow_1101_1303"></feBlend>
                                                 </filter>
                                                 </defs>
                                             </svg>
-                                        </span>
                                     </span>
                                     <span class="hero__text-letter">
+                                        <span>O</span>
                                         <svg width="50" height="56" viewBox="0 0 50 56" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <g filter="url(#filter0_ii_1004_356)">
-                                            <path d="M24.8867 55.4414C17.4805 55.4414 11.8203 53.4258 7.90625 49.3945C2.65625 44.4492 0.03125 37.3242 0.03125 28.0195C0.03125 18.5273 2.65625 11.4023 7.90625 6.64453C11.8203 2.61328 17.4805 0.597656 24.8867 0.597656C32.293 0.597656 37.9531 2.61328 41.8672 6.64453C47.0938 11.4023 49.707 18.5273 49.707 28.0195C49.707 37.3242 47.0938 44.4492 41.8672 49.3945C37.9531 53.4258 32.293 55.4414 24.8867 55.4414ZM35.1172 41.5195C37.625 38.3555 38.8789 33.8555 38.8789 28.0195C38.8789 22.207 37.6133 17.7188 35.082 14.5547C32.5742 11.3672 29.1758 9.77344 24.8867 9.77344C20.5977 9.77344 17.1758 11.3555 14.6211 14.5195C12.0664 17.6836 10.7891 22.1836 10.7891 28.0195C10.7891 33.8555 12.0664 38.3555 14.6211 41.5195C17.1758 44.6836 20.5977 46.2656 24.8867 46.2656C29.1758 46.2656 32.5859 44.6836 35.1172 41.5195Z" fill="#1E1E1E"/>
+                                            <path d="M24.8867 55.4414C17.4805 55.4414 11.8203 53.4258 7.90625 49.3945C2.65625 44.4492 0.03125 37.3242 0.03125 28.0195C0.03125 18.5273 2.65625 11.4023 7.90625 6.64453C11.8203 2.61328 17.4805 0.597656 24.8867 0.597656C32.293 0.597656 37.9531 2.61328 41.8672 6.64453C47.0938 11.4023 49.707 18.5273 49.707 28.0195C49.707 37.3242 47.0938 44.4492 41.8672 49.3945C37.9531 53.4258 32.293 55.4414 24.8867 55.4414ZM35.1172 41.5195C37.625 38.3555 38.8789 33.8555 38.8789 28.0195C38.8789 22.207 37.6133 17.7188 35.082 14.5547C32.5742 11.3672 29.1758 9.77344 24.8867 9.77344C20.5977 9.77344 17.1758 11.3555 14.6211 14.5195C12.0664 17.6836 10.7891 22.1836 10.7891 28.0195C10.7891 33.8555 12.0664 38.3555 14.6211 41.5195C17.1758 44.6836 20.5977 46.2656 24.8867 46.2656C29.1758 46.2656 32.5859 44.6836 35.1172 41.5195Z" fill="#1E1E1E"></path>
                                             </g>
                                             <defs>
                                             <filter id="filter0_ii_1004_356" x="-1.96875" y="-3.40234" width="53.6758" height="62.8438" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-                                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-                                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-                                            <feOffset dx="2" dy="4"/>
-                                            <feGaussianBlur stdDeviation="2"/>
-                                            <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
-                                            <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.2 0"/>
-                                            <feBlend mode="normal" in2="shape" result="effect1_innerShadow_1004_356"/>
-                                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-                                            <feOffset dx="-2" dy="-4"/>
-                                            <feGaussianBlur stdDeviation="2"/>
-                                            <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
-                                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0"/>
-                                            <feBlend mode="normal" in2="effect1_innerShadow_1004_356" result="effect2_innerShadow_1004_356"/>
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feBlend>
+                                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"></feColorMatrix>
+                                            <feOffset dx="2" dy="4"></feOffset>
+                                            <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+                                            <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"></feComposite>
+                                            <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.2 0"></feColorMatrix>
+                                            <feBlend mode="normal" in2="shape" result="effect1_innerShadow_1004_356"></feBlend>
+                                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"></feColorMatrix>
+                                            <feOffset dx="-2" dy="-4"></feOffset>
+                                            <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+                                            <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"></feComposite>
+                                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0"></feColorMatrix>
+                                            <feBlend mode="normal" in2="effect1_innerShadow_1004_356" result="effect2_innerShadow_1004_356"></feBlend>
                                             </filter>
                                             </defs>
                                         </svg>
                                     </span>
                                     <span class="hero__text-letter">
+                                        <span>B</span>
                                         <svg width="43" height="52" viewBox="0 0 43 52" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <g filter="url(#filter0_ii_1214_908)">
-                                            <path d="M23.6289 52H0.144531V0.179688H25.3164C31.668 0.273438 36.168 2.11328 38.8164 5.69922C40.4102 7.90234 41.207 10.5391 41.207 13.6094C41.207 16.7734 40.4102 19.3164 38.8164 21.2383C37.9258 22.3164 36.6133 23.3008 34.8789 24.1914C37.5273 25.1523 39.5195 26.6758 40.8555 28.7617C42.2148 30.8477 42.8945 33.3789 42.8945 36.3555C42.8945 39.4258 42.1211 42.1797 40.5742 44.6172C39.5898 46.2344 38.3594 47.5938 36.8828 48.6953C35.2188 49.9609 33.25 50.8281 30.9766 51.2969C28.7266 51.7656 26.2773 52 23.6289 52ZM23.3828 29.1836H10.4805V43H23.207C25.4805 43 27.25 42.6953 28.5156 42.0859C30.8125 40.9609 31.9609 38.8047 31.9609 35.6172C31.9609 32.9219 30.8477 31.0703 28.6211 30.0625C27.3789 29.5 25.6328 29.207 23.3828 29.1836ZM28.7617 19.3047C30.168 18.4609 30.8711 16.9492 30.8711 14.7695C30.8711 12.3555 29.9336 10.7617 28.0586 9.98828C26.4414 9.44922 24.3789 9.17969 21.8711 9.17969H10.4805V20.6055H23.207C25.4805 20.6055 27.332 20.1719 28.7617 19.3047Z" fill="#1E1E1E"/>
+                                            <path d="M23.6289 52H0.144531V0.179688H25.3164C31.668 0.273438 36.168 2.11328 38.8164 5.69922C40.4102 7.90234 41.207 10.5391 41.207 13.6094C41.207 16.7734 40.4102 19.3164 38.8164 21.2383C37.9258 22.3164 36.6133 23.3008 34.8789 24.1914C37.5273 25.1523 39.5195 26.6758 40.8555 28.7617C42.2148 30.8477 42.8945 33.3789 42.8945 36.3555C42.8945 39.4258 42.1211 42.1797 40.5742 44.6172C39.5898 46.2344 38.3594 47.5938 36.8828 48.6953C35.2188 49.9609 33.25 50.8281 30.9766 51.2969C28.7266 51.7656 26.2773 52 23.6289 52ZM23.3828 29.1836H10.4805V43H23.207C25.4805 43 27.25 42.6953 28.5156 42.0859C30.8125 40.9609 31.9609 38.8047 31.9609 35.6172C31.9609 32.9219 30.8477 31.0703 28.6211 30.0625C27.3789 29.5 25.6328 29.207 23.3828 29.1836ZM28.7617 19.3047C30.168 18.4609 30.8711 16.9492 30.8711 14.7695C30.8711 12.3555 29.9336 10.7617 28.0586 9.98828C26.4414 9.44922 24.3789 9.17969 21.8711 9.17969H10.4805V20.6055H23.207C25.4805 20.6055 27.332 20.1719 28.7617 19.3047Z" fill="#1E1E1E"></path>
                                             </g>
                                             <defs>
                                             <filter id="filter0_ii_1214_908" x="-1.85547" y="-3.82031" width="46.75" height="59.8203" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-                                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-                                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-                                            <feOffset dx="2" dy="4"/>
-                                            <feGaussianBlur stdDeviation="2"/>
-                                            <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
-                                            <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.2 0"/>
-                                            <feBlend mode="normal" in2="shape" result="effect1_innerShadow_1214_908"/>
-                                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-                                            <feOffset dx="-2" dy="-4"/>
-                                            <feGaussianBlur stdDeviation="2"/>
-                                            <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
-                                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0"/>
-                                            <feBlend mode="normal" in2="effect1_innerShadow_1214_908" result="effect2_innerShadow_1214_908"/>
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feBlend>
+                                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"></feColorMatrix>
+                                            <feOffset dx="2" dy="4"></feOffset>
+                                            <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+                                            <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"></feComposite>
+                                            <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.2 0"></feColorMatrix>
+                                            <feBlend mode="normal" in2="shape" result="effect1_innerShadow_1214_908"></feBlend>
+                                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"></feColorMatrix>
+                                            <feOffset dx="-2" dy="-4"></feOffset>
+                                            <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+                                            <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"></feComposite>
+                                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0"></feColorMatrix>
+                                            <feBlend mode="normal" in2="effect1_innerShadow_1214_908" result="effect2_innerShadow_1214_908"></feBlend>
                                             </filter>
                                             </defs>
-                                        </svg>                                            
+                                        </svg>                                          
                                     </span>
                                     <span class="hero__text-letter">
+                                        <span>I</span>
                                         <svg width="11" height="52" viewBox="0 0 11 52" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <g filter="url(#filter0_ii_1214_298)">
-                                            <path d="M0.121094 0.179688H10.8789V52H0.121094V0.179688Z" fill="#1E1E1E"/>
+                                            <path d="M0.121094 0.179688H10.8789V52H0.121094V0.179688Z" fill="#1E1E1E"></path>
                                             </g>
                                             <defs>
                                             <filter id="filter0_ii_1214_298" x="-1.87891" y="-3.82031" width="14.7578" height="59.8203" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-                                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-                                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-                                            <feOffset dx="2" dy="4"/>
-                                            <feGaussianBlur stdDeviation="2"/>
-                                            <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
-                                            <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.2 0"/>
-                                            <feBlend mode="normal" in2="shape" result="effect1_innerShadow_1214_298"/>
-                                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-                                            <feOffset dx="-2" dy="-4"/>
-                                            <feGaussianBlur stdDeviation="2"/>
-                                            <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
-                                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0"/>
-                                            <feBlend mode="normal" in2="effect1_innerShadow_1214_298" result="effect2_innerShadow_1214_298"/>
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feBlend>
+                                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"></feColorMatrix>
+                                            <feOffset dx="2" dy="4"></feOffset>
+                                            <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+                                            <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"></feComposite>
+                                            <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.2 0"></feColorMatrix>
+                                            <feBlend mode="normal" in2="shape" result="effect1_innerShadow_1214_298"></feBlend>
+                                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"></feColorMatrix>
+                                            <feOffset dx="-2" dy="-4"></feOffset>
+                                            <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+                                            <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"></feComposite>
+                                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0"></feColorMatrix>
+                                            <feBlend mode="normal" in2="effect1_innerShadow_1214_298" result="effect2_innerShadow_1214_298"></feBlend>
                                             </filter>
                                             </defs>
-                                        </svg>                                            
+                                        </svg>                                        
                                     </span>
                                     <span class="hero__text-letter">
+                                        <span>L</span>
                                         <svg width="38" height="52" viewBox="0 0 38 52" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <g filter="url(#filter0_ii_1214_1360)">
-                                            <path d="M0.976562 0.179688H11.8047V42.6836H37.4688V52H0.976562V0.179688Z" fill="#1E1E1E"/>
+                                            <path d="M0.976562 0.179688H11.8047V42.6836H37.4688V52H0.976562V0.179688Z" fill="#1E1E1E"></path>
                                             </g>
                                             <defs>
                                             <filter id="filter0_ii_1214_1360" x="-1.02344" y="-3.82031" width="40.4922" height="59.8203" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-                                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-                                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-                                            <feOffset dx="2" dy="4"/>
-                                            <feGaussianBlur stdDeviation="2"/>
-                                            <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
-                                            <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.2 0"/>
-                                            <feBlend mode="normal" in2="shape" result="effect1_innerShadow_1214_1360"/>
-                                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-                                            <feOffset dx="-2" dy="-4"/>
-                                            <feGaussianBlur stdDeviation="2"/>
-                                            <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
-                                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0"/>
-                                            <feBlend mode="normal" in2="effect1_innerShadow_1214_1360" result="effect2_innerShadow_1214_1360"/>
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feBlend>
+                                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"></feColorMatrix>
+                                            <feOffset dx="2" dy="4"></feOffset>
+                                            <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+                                            <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"></feComposite>
+                                            <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.2 0"></feColorMatrix>
+                                            <feBlend mode="normal" in2="shape" result="effect1_innerShadow_1214_1360"></feBlend>
+                                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"></feColorMatrix>
+                                            <feOffset dx="-2" dy="-4"></feOffset>
+                                            <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+                                            <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"></feComposite>
+                                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0"></feColorMatrix>
+                                            <feBlend mode="normal" in2="effect1_innerShadow_1214_1360" result="effect2_innerShadow_1214_1360"></feBlend>
                                             </filter>
                                             </defs>
-                                        </svg>                                            
+                                        </svg>                                          
                                     </span>
-                                    <span class="hero__text-letter dev-letter">
-                                        E
+                                    <span class="dev-letter-wrapper">
+                                        <span class="hero__text-letter dev-letter">
+                                            E
+                                        </span>
                                     </span>
                                  </div>
                                  <div class="hero__hero-text_bottom-line">
                                     <span class="hero__text-letter">
+                                        <span>B</span>
                                         <svg width="43" height="52" viewBox="0 0 43 52" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <g filter="url(#filter0_ii_1214_865)">
-                                            <path d="M23.6289 52H0.144531V0.179688H25.3164C31.668 0.273438 36.168 2.11328 38.8164 5.69922C40.4102 7.90234 41.207 10.5391 41.207 13.6094C41.207 16.7734 40.4102 19.3164 38.8164 21.2383C37.9258 22.3164 36.6133 23.3008 34.8789 24.1914C37.5273 25.1523 39.5195 26.6758 40.8555 28.7617C42.2148 30.8477 42.8945 33.3789 42.8945 36.3555C42.8945 39.4258 42.1211 42.1797 40.5742 44.6172C39.5898 46.2344 38.3594 47.5938 36.8828 48.6953C35.2188 49.9609 33.25 50.8281 30.9766 51.2969C28.7266 51.7656 26.2773 52 23.6289 52ZM23.3828 29.1836H10.4805V43H23.207C25.4805 43 27.25 42.6953 28.5156 42.0859C30.8125 40.9609 31.9609 38.8047 31.9609 35.6172C31.9609 32.9219 30.8477 31.0703 28.6211 30.0625C27.3789 29.5 25.6328 29.207 23.3828 29.1836ZM28.7617 19.3047C30.168 18.4609 30.8711 16.9492 30.8711 14.7695C30.8711 12.3555 29.9336 10.7617 28.0586 9.98828C26.4414 9.44922 24.3789 9.17969 21.8711 9.17969H10.4805V20.6055H23.207C25.4805 20.6055 27.332 20.1719 28.7617 19.3047Z" fill="#1E1E1E"/>
+                                            <path d="M23.6289 52H0.144531V0.179688H25.3164C31.668 0.273438 36.168 2.11328 38.8164 5.69922C40.4102 7.90234 41.207 10.5391 41.207 13.6094C41.207 16.7734 40.4102 19.3164 38.8164 21.2383C37.9258 22.3164 36.6133 23.3008 34.8789 24.1914C37.5273 25.1523 39.5195 26.6758 40.8555 28.7617C42.2148 30.8477 42.8945 33.3789 42.8945 36.3555C42.8945 39.4258 42.1211 42.1797 40.5742 44.6172C39.5898 46.2344 38.3594 47.5938 36.8828 48.6953C35.2188 49.9609 33.25 50.8281 30.9766 51.2969C28.7266 51.7656 26.2773 52 23.6289 52ZM23.3828 29.1836H10.4805V43H23.207C25.4805 43 27.25 42.6953 28.5156 42.0859C30.8125 40.9609 31.9609 38.8047 31.9609 35.6172C31.9609 32.9219 30.8477 31.0703 28.6211 30.0625C27.3789 29.5 25.6328 29.207 23.3828 29.1836ZM28.7617 19.3047C30.168 18.4609 30.8711 16.9492 30.8711 14.7695C30.8711 12.3555 29.9336 10.7617 28.0586 9.98828C26.4414 9.44922 24.3789 9.17969 21.8711 9.17969H10.4805V20.6055H23.207C25.4805 20.6055 27.332 20.1719 28.7617 19.3047Z" fill="#1E1E1E"></path>
                                             </g>
                                             <defs>
                                             <filter id="filter0_ii_1214_865" x="-1.85547" y="-3.82031" width="46.75" height="59.8203" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-                                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-                                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-                                            <feOffset dx="2" dy="4"/>
-                                            <feGaussianBlur stdDeviation="2"/>
-                                            <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
-                                            <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.2 0"/>
-                                            <feBlend mode="normal" in2="shape" result="effect1_innerShadow_1214_865"/>
-                                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-                                            <feOffset dx="-2" dy="-4"/>
-                                            <feGaussianBlur stdDeviation="2"/>
-                                            <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
-                                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0"/>
-                                            <feBlend mode="normal" in2="effect1_innerShadow_1214_865" result="effect2_innerShadow_1214_865"/>
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feBlend>
+                                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"></feColorMatrix>
+                                            <feOffset dx="2" dy="4"></feOffset>
+                                            <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+                                            <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"></feComposite>
+                                            <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.2 0"></feColorMatrix>
+                                            <feBlend mode="normal" in2="shape" result="effect1_innerShadow_1214_865"></feBlend>
+                                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"></feColorMatrix>
+                                            <feOffset dx="-2" dy="-4"></feOffset>
+                                            <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+                                            <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"></feComposite>
+                                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0"></feColorMatrix>
+                                            <feBlend mode="normal" in2="effect1_innerShadow_1214_865" result="effect2_innerShadow_1214_865"></feBlend>
                                             </filter>
                                             </defs>
-                                        </svg>                                            
+                                        </svg>                                         
                                     </span>
-                                    <span class="hero__text-letter dev-letter">
-
-                                        V
+                                    <span class="dev-letter-wrapper">
+                                        <span class="hero__text-letter dev-letter">
+                                            V
+                                        </span>
                                     </span>
                                  </div>
                             </div>
@@ -467,7 +486,7 @@
             </div>
             <div class="container hero__container">
                 <div class="cta-btn">
-                    <button class="button button__shadow-on-hover btn-glare cta-btn__button button__shadow-on-hover btn btn-cta btn__calc-project leave-contacts">
+                    <button id="hero-cta" class="button button__shadow-on-hover btn-glare cta-btn__button button__shadow-on-hover btn btn-cta btn__calc-project leave-contacts">
                         Рассчитать проект
                     </button>
                     <div class="marquee-container">
@@ -504,16 +523,16 @@
                         О нас
                     </h2>
                     <div class="people">
-                        <img src="./assets/img/people-1.jpg" alt="Фото сотрудника PFM">
-                        <img src="./assets/img/people-2.jpg" alt="Фото сотрудника PFM">
-                        <img src="./assets/img/people-3.jpg" alt="Фото сотрудника PFM">
-                        <img src="./assets/img/people-4.jpg" alt="Фото сотрудника PFM">
-                        <img src="./assets/img/people-5.jpg" alt="Фото сотрудника PFM">
+                        <img src="./assets/img/people-1.jpg" alt="Фото сотрудника pFM">
+                        <img src="./assets/img/people-2.jpg" alt="Фото сотрудника pFM">
+                        <img src="./assets/img/people-3.jpg" alt="Фото сотрудника pFM">
+                        <img src="./assets/img/people-4.jpg" alt="Фото сотрудника pFM">
+                        <img src="./assets/img/people-5.jpg" alt="Фото сотрудника pFM">
                     </div>
                 </div>
                 <div class="about__block about__text">
                     <p>Мы команда профессиональных разработчиков.</p>
-                    <p>У нас богатый опыт в области разработки мобильных и веб приложений с использованием последних технологий и инструментов для создания уникальных и инновационных ресурсов, включая наш флагманский проект - социальную сеть для путешественников <a href="#">Planet for me</a> </p>
+                    <p>У нас богатый опыт в области разработки мобильных и веб приложений с использованием последних технологий и инструментов для создания уникальных и инновационных ресурсов, включая наш флагманский проект - социальную сеть для путешественников <a href="#">planet for me</a> </p>
                     <p>Наша цель - создавать качественные продукты, которые соответствуют ожиданиям наших клиентов. </p>
                     <p>Мы убеждены, что лучшие результаты достигаются путем тесного сотрудничества с нашими заказчиками, чтобы понимать их ключевые потребности и пожелания.</p>
                 </div>
@@ -534,13 +553,13 @@
                         <li class="about__list-cycle">
                             <span class="about__list-text">
                                 <span class="about-emph">а-я</span>
-                                <span class="about-descr">полный цикл разработки</span>
+                                <span id="dev-cycle" class="about-descr">полный цикл разработки</span>
                             </span>
                         </li>
                         <li class="about__list-rights">
                             <span class="about__list-text">
                                 <span class="about-emph">100%</span>
-                                <span class="about-descr">передача авторских прав</span>
+                                <span id="dev-rights" class="about-descr">передача авторских прав</span>
                             </span>
                         </li>
                     </ul>
@@ -571,83 +590,84 @@
                 <div class="services__block services__block-acc">
                     <div class="accordion-body">
                         <div class="accordion">                          
-                          <div class="acc-container">
+                          <div class="acc-container acc-mobile">
                             <div class="label">
-                                <span>Мобильная разработка</span>
                                 <div class="icon">
                                     <div class="icon-arrow"></div>
                                 </div>
+                                <span>Мобильная разработка</span>
                             </div>
                             <div class="content">Разработка мобильных приложений для iOS, Android, Web</div>
                           </div>
-                          
                           <div class="acc-container">
-                            <div class="label">
-                                <span>ВЕБ разработка</span>
+                            <div class="label acc-web">
                                 <div class="icon">
                                     <div class="icon-arrow"></div>
                                 </div>
+                                <span>ВЕБ разработка</span>
                             </div>
                             <div class="content">
                                 Разработка веб-сайтов, лендингов и веб-приложений
                              </div>          
                           </div>
-                          
                           <div class="acc-container">
-                            <div class="label">E-Commerce
-                                <span>ВЕБ разработка</span>
+                            <div class="label acc-ecommerce">
                                 <div class="icon">
                                     <div class="icon-arrow"></div>
                                 </div>
+                                <span>E-Commerce</span>
                             </div>
                             <div class="content">Разработка продуктов для электронной торговли: онлайн-магазины, онлайн-консалтинг и др.</div>
                           </div>
-                          
                           <div class="acc-container">
-                            <div class="label">
-                                <span> UX/UI дизайн</span>
+                            <div class="label acc-ui">
                                 <div class="icon">
                                     <div class="icon-arrow"></div>
                                 </div>
-                               
+                                <span> UX/UI дизайн</span>
                             </div>
                             <div class="content">Разработка дизайна интерфейсов согласно пользовательскому опыту и лучшим практикам </div>
                           </div>
-                          
                           <div class="acc-container">
-                            <div class="label">
-                                <span>Исследования и аналитика</span>
+                            <div class="label acc-research">
                                 <div class="icon">
                                     <div class="icon-arrow"></div>
                                 </div>
+                                <span>Исследования и аналитика</span>
                             </div>
                             <div class="content">Исследования рынка, конкурентов и бизнеса для выявления слабых и сильных сторон</div>
                           </div>
-                          
                           <div class="acc-container">
-                            <div class="label">
-                                <span>аудит, ТЕСТИРОВАНИЕ QA</span>
+                            <div class="label acc-audit">
                                 <div class="icon">
                                     <div class="icon-arrow"></div>
                                 </div>
+                                <span>Аудит, Тестирование, QA</span>
                             </div>
                             <div class="content">Аудит и тестирование мобильных/веб продуктов с целью выявления ошибок и недочетов</div>
                           </div>
-
                           <div class="acc-container">
-                            <div class="label">
-                                <span>аутсорсинг, поддержка и сопровождение</span>
+                            <div class="label acc-outsourcing">
                                 <div class="icon">
                                     <div class="icon-arrow"></div>
                                 </div>
+                                <span>Аутсорсинг, поддержка и сопровождение</span>
                             </div>
                             <div class="content">Найм наших специалистов для вашего проекта, техническа поддержка и сопровождение ваших продуктов</div>
                           </div>
+                          <!-- <div class="acc-container">
+                            <div class="label acc-outsourcing">
+                                <div class="icon">
+                                    <div class="icon-arrow"></div>
+                                </div>
+                                <span>Аутсорсинг, поддержка и сопровождение</span>
+                            </div>
+                            <div class="content">Найм наших специалистов для вашего проекта, техническа поддержка и сопровождение ваших продуктов</div>
+                          </div> -->
                         </div>
                         </div>
                 </div>
                 <div class="services__cta">
-                    
                     <button class="btn btn-glare btn-cta services__button cta-btn__button button__shadow-on-hover leave-contacts">
                         Заказать оценку проекта
                         <span class="services__cta_free">Это бесплатно</span>
@@ -655,9 +675,9 @@
                 </div>
             </div>
         </section>
-        <section id="steps" class="setps">
+        <section id="steps" class="steps">
             <div class="container steps__container">
-                <h2 class="section-heading">Этапы разработки</h2>
+                <h2 id="steps-heading" class="section-heading">Этапы разработки</h2>
                 <ul class="steps__list">
                     <li class="steps__list-item steps__intro">
                         <p class="steps__intro_text">
@@ -745,9 +765,12 @@
                         <!-- </picture>  -->
                         <p class="steps__proto-idea">
                             <span class="steps__proto_big-text">15%</span>
-                            от бюджета проекта, 
-                            чтобы<span class="steps__proto_strong-text">увидеть свой продукт</span>       в виде кликабельного макета         <span class="steps__proto_strong-text">и снизить стоимость</span> разработки   
-                            
+                            <span class="steps__proto_tablet-text">
+                                <span class="steps__proto_colored-text">от бюджета проекта<span class="steps__proto_tablet-comma">,</span></span>
+                                <span class="steps__proto_normal-tablet-text">
+                                    чтобы <span class="steps__proto_strong-text">увидеть свой продукт</span>       в виде кликабельного макета         <span class="steps__proto_strong-text">и снизить стоимость</span> разработки                                     
+                                </span>
+                            </span>
                         </p>
                     </div>
                     <div class="steps__block steps__hiw">
@@ -810,11 +833,11 @@
                             <span class="conditions__item-price">2000-2500 руб./час</span>
                         </div>
                         <div class="conditions__base-price">
-                            <span class="conditions__item">Приложение iOS или Android</span>
+                            <span class="conditions__item"><span class="tablet-invisible">Приложение</span> iOS или Android</span>
                             <span class="conditions__item-price">От 1,5 млн. руб.</span>
                         </div>
                         <div class="conditions__base-price">
-                            <span class="conditions__item">Приложение iOS + Android</span>
+                            <span class="conditions__item"><span class="tablet-invisible">Приложение</span>  iOS + Android</span>
                             <span class="conditions__item-price">От 2,2 млн. руб.</span>
                         </div>
                         <div class="conditions__base-price">
@@ -832,17 +855,17 @@
                     </div>
                     <div class="conditions__deadlines">
                         <div class="conditions__deadline">
-                            <span class="conditions__item-name">MVP ПРИЛОЖЕНИЯ (Android, iOS, Веб)</span>
+                            <span class="conditions__item-name">MVp ПРИЛОЖЕНИЯ (Android, iOS, Веб)</span>
                             <span class="conditions__deadline-time">2-6 мес</span>
                             <svg width="551" height="16" viewBox="0 0 551 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <g filter="url(#filter0_i_845_344)">
+                                <g filter="url(#filter0_i_1614_790)">
                                 <rect width="551" height="16" rx="8" fill="#E1E1E1"/>
                                 </g>
-                                <g filter="url(#filter1_ii_845_344)">
-                                <rect width="431" height="16" rx="8" fill="url(#paint0_linear_845_344)"/>
+                                <g filter="url(#filter1_ii_1614_790)">
+                                <rect width="431" height="16" rx="8" fill="url(#paint0_linear_1614_790)"/>
                                 </g>
                                 <defs>
-                                <filter id="filter0_i_845_344" x="-2" y="0" width="553" height="20" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                <filter id="filter0_i_1614_790" x="-2" y="0" width="553" height="20" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
                                 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
                                 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
                                 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
@@ -850,9 +873,9 @@
                                 <feGaussianBlur stdDeviation="2"/>
                                 <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
                                 <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0"/>
-                                <feBlend mode="normal" in2="shape" result="effect1_innerShadow_845_344"/>
+                                <feBlend mode="normal" in2="shape" result="effect1_innerShadow_1614_790"/>
                                 </filter>
-                                <filter id="filter1_ii_845_344" x="-2" y="-4" width="555" height="24" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                <filter id="filter1_ii_1614_790" x="-2" y="-4" width="555" height="24" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
                                 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
                                 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
                                 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
@@ -860,33 +883,33 @@
                                 <feGaussianBlur stdDeviation="4"/>
                                 <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
                                 <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.4 0"/>
-                                <feBlend mode="normal" in2="shape" result="effect1_innerShadow_845_344"/>
+                                <feBlend mode="normal" in2="shape" result="effect1_innerShadow_1614_790"/>
                                 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
                                 <feOffset dx="-2" dy="-4"/>
                                 <feGaussianBlur stdDeviation="10"/>
                                 <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
                                 <feColorMatrix type="matrix" values="0 0 0 0 0.07515 0 0 0 0 0.0675 0 0 0 0 0.45 0 0 0 0.7 0"/>
-                                <feBlend mode="normal" in2="effect1_innerShadow_845_344" result="effect2_innerShadow_845_344"/>
+                                <feBlend mode="normal" in2="effect1_innerShadow_1614_790" result="effect2_innerShadow_1614_790"/>
                                 </filter>
-                                <linearGradient id="paint0_linear_845_344" x1="60.0414" y1="-1.59058e-05" x2="377.822" y2="110.076" gradientUnits="userSpaceOnUse">
+                                <linearGradient id="paint0_linear_1614_790" x1="60.0414" y1="-1.59058e-05" x2="377.822" y2="110.076" gradientUnits="userSpaceOnUse">
                                 <stop stop-color="#9011A5"/>
                                 <stop offset="1" stop-color="#201DC1"/>
                                 </linearGradient>
                                 </defs>
-                            </svg>             
+                            </svg>                                                              
                         </div>
                         <div class="conditions__deadline">
                             <span class="conditions__item-name">ВЕБ-САЙТ</span>
                             <span class="conditions__deadline-time">3-6 мес</span>
                             <svg width="551" height="17" viewBox="0 0 551 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <g filter="url(#filter0_i_845_76)">
+                                <g filter="url(#filter0_i_1614_71)">
                                 <rect y="0.5" width="551" height="16" rx="8" fill="#E1E1E1"/>
                                 </g>
-                                <g filter="url(#filter1_ii_845_76)">
-                                <rect y="0.5" width="331" height="16" rx="8" fill="url(#paint0_linear_845_76)"/>
+                                <g filter="url(#filter1_ii_1614_71)">
+                                <rect y="0.5" width="331" height="16" rx="8" fill="url(#paint0_linear_1614_71)"/>
                                 </g>
                                 <defs>
-                                <filter id="filter0_i_845_76" x="-2" y="0.5" width="553" height="20" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                <filter id="filter0_i_1614_71" x="-2" y="0.5" width="553" height="20" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
                                 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
                                 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
                                 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
@@ -894,9 +917,9 @@
                                 <feGaussianBlur stdDeviation="2"/>
                                 <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
                                 <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0"/>
-                                <feBlend mode="normal" in2="shape" result="effect1_innerShadow_845_76"/>
+                                <feBlend mode="normal" in2="shape" result="effect1_innerShadow_1614_71"/>
                                 </filter>
-                                <filter id="filter1_ii_845_76" x="-2" y="-3.5" width="555" height="24" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                <filter id="filter1_ii_1614_71" x="-2" y="-3.5" width="555" height="24" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
                                 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
                                 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
                                 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
@@ -904,33 +927,33 @@
                                 <feGaussianBlur stdDeviation="4"/>
                                 <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
                                 <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.4 0"/>
-                                <feBlend mode="normal" in2="shape" result="effect1_innerShadow_845_76"/>
+                                <feBlend mode="normal" in2="shape" result="effect1_innerShadow_1614_71"/>
                                 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
                                 <feOffset dx="-2" dy="-4"/>
                                 <feGaussianBlur stdDeviation="10"/>
                                 <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
                                 <feColorMatrix type="matrix" values="0 0 0 0 0.07515 0 0 0 0 0.0675 0 0 0 0 0.45 0 0 0 0.7 0"/>
-                                <feBlend mode="normal" in2="effect1_innerShadow_845_76" result="effect2_innerShadow_845_76"/>
+                                <feBlend mode="normal" in2="effect1_innerShadow_1614_71" result="effect2_innerShadow_1614_71"/>
                                 </filter>
-                                <linearGradient id="paint0_linear_845_76" x1="46.1107" y1="0.499984" x2="301.379" y2="68.4068" gradientUnits="userSpaceOnUse">
+                                <linearGradient id="paint0_linear_1614_71" x1="46.1107" y1="0.499984" x2="301.379" y2="68.4068" gradientUnits="userSpaceOnUse">
                                 <stop stop-color="#9011A5"/>
                                 <stop offset="1" stop-color="#201DC1"/>
                                 </linearGradient>
                                 </defs>
-                            </svg>
+                            </svg>                                                             
                         </div>
                         <div class="conditions__deadline">
                             <span class="conditions__item-name">ЛЕНДИНГ</span>
                             <span class="conditions__deadline-time">1/2-2 мес</span>
                             <svg width="551" height="16" viewBox="0 0 551 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <g filter="url(#filter0_i_845_258)">
+                                <g filter="url(#filter0_i_1614_249)">
                                 <rect width="551" height="16" rx="8" fill="#E1E1E1"/>
                                 </g>
-                                <g filter="url(#filter1_ii_845_258)">
-                                <rect width="101" height="16" rx="8" fill="url(#paint0_linear_845_258)"/>
+                                <g filter="url(#filter1_ii_1614_249)">
+                                <rect width="101" height="16" rx="8" fill="url(#paint0_linear_1614_249)"/>
                                 </g>
                                 <defs>
-                                <filter id="filter0_i_845_258" x="-2" y="0" width="553" height="20" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                <filter id="filter0_i_1614_249" x="-2" y="0" width="553" height="20" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
                                 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
                                 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
                                 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
@@ -938,9 +961,9 @@
                                 <feGaussianBlur stdDeviation="2"/>
                                 <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
                                 <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0"/>
-                                <feBlend mode="normal" in2="shape" result="effect1_innerShadow_845_258"/>
+                                <feBlend mode="normal" in2="shape" result="effect1_innerShadow_1614_249"/>
                                 </filter>
-                                <filter id="filter1_ii_845_258" x="-2" y="-4" width="555" height="24" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                <filter id="filter1_ii_1614_249" x="-2" y="-4" width="555" height="24" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
                                 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
                                 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
                                 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
@@ -948,20 +971,20 @@
                                 <feGaussianBlur stdDeviation="4"/>
                                 <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
                                 <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.4 0"/>
-                                <feBlend mode="normal" in2="shape" result="effect1_innerShadow_845_258"/>
+                                <feBlend mode="normal" in2="shape" result="effect1_innerShadow_1614_249"/>
                                 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
                                 <feOffset dx="-2" dy="-4"/>
                                 <feGaussianBlur stdDeviation="10"/>
                                 <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
                                 <feColorMatrix type="matrix" values="0 0 0 0 0.07515 0 0 0 0 0.0675 0 0 0 0 0.45 0 0 0 0.7 0"/>
-                                <feBlend mode="normal" in2="effect1_innerShadow_845_258" result="effect2_innerShadow_845_258"/>
+                                <feBlend mode="normal" in2="effect1_innerShadow_1614_249" result="effect2_innerShadow_1614_249"/>
                                 </filter>
-                                <linearGradient id="paint0_linear_845_258" x1="14.07" y1="-1.59058e-05" x2="96.9277" y2="6.72577" gradientUnits="userSpaceOnUse">
+                                <linearGradient id="paint0_linear_1614_249" x1="14.07" y1="-1.59058e-05" x2="96.9277" y2="6.72577" gradientUnits="userSpaceOnUse">
                                 <stop stop-color="#9011A5"/>
                                 <stop offset="1" stop-color="#201DC1"/>
                                 </linearGradient>
                                 </defs>
-                            </svg>
+                            </svg>                                
                         </div>
                     </div>
                 </div>
@@ -970,7 +993,7 @@
         <section id="cases" class="cases">
             <div class="container cases__container">
                 <h2 class="section-heading cases__heading">Кейсы</h2>
-                <p>Направления реализованных проектов</p>
+                <p class="cases-descr">Направления реализованных проектов</p>
                 <ul class="directions">
                     <li class="direction">
                         <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -979,9 +1002,9 @@
                             <path d="M22.5159 26.8999L26.9159 17C27.7911 17 28.6305 17.3477 29.2494 17.9665C29.8682 18.5854 30.2159 19.4248 30.2159 20.3V24.7H36.4418C36.7607 24.6963 37.0766 24.7621 37.3676 24.8927C37.6585 25.0233 37.9176 25.2156 38.1269 25.4562C38.3361 25.6969 38.4906 25.9801 38.5795 26.2864C38.6684 26.5927 38.6897 26.9146 38.6418 27.2299L37.1238 37.1299C37.0443 37.6545 36.7778 38.1326 36.3735 38.4763C35.9693 38.8199 35.4544 39.0059 34.9239 38.9999H22.5159M22.5159 26.8999V38.9999M22.5159 26.8999H19.216C18.6325 26.8999 18.0729 27.1317 17.6604 27.5443C17.2478 27.9569 17.016 28.5165 17.016 29.0999V36.7999C17.016 37.3833 17.2478 37.9429 17.6604 38.3555C18.0729 38.7681 18.6325 38.9999 19.216 38.9999H22.5159" stroke="#FFFEFE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                             </g>
                             <defs>
-                            <clipPath id="clip0_845_12">
+                            <clippath id="clip0_845_12">
                             <rect width="24" height="24" fill="white" transform="translate(16 16)"/>
-                            </clipPath>
+                            </clippath>
                             </defs>
                         </svg>
                         <span>Социальные сети</span>
@@ -993,9 +1016,9 @@
                             <path d="M39.75 27.3889C39.7542 29.0021 39.3773 30.5934 38.65 32.0333C37.7876 33.7588 36.4619 35.2101 34.8213 36.2247C33.1807 37.2393 31.2901 37.777 29.3611 37.7778C27.7479 37.782 26.1566 37.4051 24.7167 36.6778L17.75 39L20.0722 32.0333C19.3449 30.5934 18.968 29.0021 18.9722 27.3889C18.973 25.4599 19.5107 23.5693 20.5253 21.9287C21.5399 20.2881 22.9912 18.9624 24.7167 18.1C26.1566 17.3727 27.7479 16.9958 29.3611 17H29.9722C32.5197 17.1406 34.9259 18.2159 36.73 20.02C38.5341 21.8241 39.6094 24.2303 39.75 26.7778V27.3889Z" stroke="#FFFEFE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                             </g>
                             <defs>
-                            <clipPath id="clip0_845_113">
+                            <clippath id="clip0_845_113">
                             <rect width="24" height="24" fill="white" transform="translate(16.75 16)"/>
-                            </clipPath>
+                            </clippath>
                             </defs>
                         </svg>
                         <span>Мессенджеры</span>
@@ -1007,9 +1030,9 @@
                             <path d="M39.5 26.9884V28.0004C39.4986 30.3725 38.7305 32.6806 37.3103 34.5804C35.89 36.4803 33.8936 37.8702 31.6189 38.5427C29.3442 39.2153 26.913 39.1345 24.6879 38.3125C22.4628 37.4904 20.5631 35.9711 19.2721 33.9812C17.981 31.9913 17.3678 29.6373 17.5238 27.2704C17.6799 24.9035 18.5969 22.6504 20.1381 20.8472C21.6793 19.044 23.7621 17.7874 26.0758 17.2646C28.3895 16.7418 30.8103 16.981 32.977 17.9464M39.5 19.2005L28.5 30.2114L25.2 26.9114" stroke="#FFFEFE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                             </g>
                             <defs>
-                            <clipPath id="clip0_864_592">
+                            <clippath id="clip0_864_592">
                             <rect width="24" height="24" fill="white" transform="translate(16.5 16)"/>
-                            </clipPath>
+                            </clippath>
                             </defs>
                         </svg>
                         <span>Органайзеры</span>                            
@@ -1022,9 +1045,9 @@
                             <path d="M32.914 23.336L30.582 30.332L23.586 32.664L25.918 25.668L32.914 23.336Z" stroke="#FFFEFE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                             </g>
                             <defs>
-                            <clipPath id="clip0_864_103">
+                            <clippath id="clip0_864_103">
                             <rect width="24" height="24" fill="white" transform="translate(16.25 16)"/>
-                            </clipPath>
+                            </clippath>
                             </defs>
                         </svg>                            
                         <span>
@@ -1056,9 +1079,9 @@
                             <path d="M32.4167 20.6667V39M32.4167 20.6667L39.75 17V35.3333L32.4167 39M32.4167 20.6667L25.0833 17M32.4167 39L25.0833 35.3333M25.0833 35.3333L17.75 39V20.6667L25.0833 17M25.0833 35.3333V17" stroke="#FFFEFE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                             </g>
                             <defs>
-                            <clipPath id="clip0_864_91">
+                            <clippath id="clip0_864_91">
                             <rect width="24" height="24" fill="white" transform="translate(16.75 16)"/>
-                            </clipPath>
+                            </clippath>
                             </defs>
                         </svg>                            
                         <span>
@@ -1072,9 +1095,9 @@
                             <path d="M28.5 21.0556V24.1111M28.5 21.0556C28.5 19.368 29.868 18 31.5556 18C33.2431 18 34.6111 19.368 34.6111 21.0556C34.6111 22.7431 33.2431 24.1111 31.5556 24.1111M28.5 21.0556C28.5 19.368 27.132 18 25.4444 18C23.7569 18 22.3889 19.368 22.3889 21.0556C22.3889 22.7431 23.7569 24.1111 25.4444 24.1111M28.5 24.1111H31.5556M28.5 24.1111H25.4444M28.5 24.1111V31.4444M31.5556 24.1111H35.5891C36.9581 24.1111 37.6417 24.1111 38.1646 24.3775C38.6245 24.6119 38.9995 24.9856 39.2338 25.4455C39.5 25.9679 39.5 26.6521 39.5 28.0184V31.4444M25.4444 24.1111H21.4113C20.0423 24.1111 19.3573 24.1111 18.8344 24.3775C18.3745 24.6119 18.0008 24.9856 17.7664 25.4455C17.5 25.9684 17.5 26.6534 17.5 28.0225V31.4444M17.5 31.4444V34.8669C17.5 36.2359 17.5 36.9201 17.7664 37.443C18.0008 37.9029 18.3745 38.2773 18.8344 38.5116C19.3568 38.7778 20.041 38.7778 21.4073 38.7778H28.5M17.5 31.4444H28.5M28.5 31.4444V38.7778M28.5 31.4444H39.5M28.5 38.7778H35.5927C36.959 38.7778 37.6422 38.7778 38.1646 38.5116C38.6245 38.2773 38.9995 37.9029 39.2338 37.443C39.5 36.9206 39.5 36.2374 39.5 34.871V31.4444" stroke="#FFFEFE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                             </g>
                             <defs>
-                            <clipPath id="clip0_864_519">
+                            <clippath id="clip0_864_519">
                             <rect width="24" height="24" fill="white" transform="translate(16.5 16)"/>
-                            </clipPath>
+                            </clippath>
                             </defs>
                         </svg>                            
                         <span>
@@ -1088,9 +1111,9 @@
                             <path d="M17.25 37.7778H25.7362M25.7362 37.7778H25.8749M25.7362 37.7778C25.7593 37.778 25.7824 37.7781 25.8056 37.7781C25.8287 37.7781 25.8518 37.778 25.8749 37.7778M25.7362 37.7778C21.043 37.7405 17.25 33.9239 17.25 29.222V24.239C17.25 23.616 17.7548 23.1111 18.3779 23.1111H33.2326C33.8557 23.1111 34.3611 23.616 34.3611 24.239V24.3333M25.8749 37.7778H34.3611M25.8749 37.7778C30.5681 37.7405 34.3611 33.9239 34.3611 29.222M34.3611 24.3333H36.1944C37.882 24.3333 39.25 25.7014 39.25 27.3889C39.25 29.0764 37.882 30.4445 36.1944 30.4445H34.3611V29.222M34.3611 24.3333V29.222M30.6944 17L29.4722 19.4444M27.0278 17L25.8056 19.4444M23.3611 17L22.1389 19.4444" stroke="#FFFEFE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                             </g>
                             <defs>
-                            <clipPath id="clip0_864_443">
+                            <clippath id="clip0_864_443">
                             <rect width="24" height="24" fill="white" transform="translate(16.25 16)"/>
-                            </clipPath>
+                            </clippath>
                             </defs>
                         </svg>
                         <span>
@@ -1104,9 +1127,9 @@
                             <path d="M17.1809 26.5555C16.8302 26.2312 17.0207 25.645 17.495 25.5888L24.2154 24.7917C24.4087 24.7687 24.5766 24.6474 24.6581 24.4706L27.4927 18.3253C27.6928 17.8916 28.3093 17.8915 28.5094 18.3252L31.344 24.4705C31.4255 24.6472 31.5923 24.7689 31.7856 24.7919L38.5064 25.5888C38.9807 25.645 39.1706 26.2314 38.82 26.5557L33.8519 31.1508C33.709 31.283 33.6454 31.4797 33.6833 31.6706L35.0018 38.3083C35.0949 38.7768 34.5964 39.1397 34.1796 38.9065L28.2744 35.6001C28.1045 35.505 27.8982 35.5055 27.7283 35.6006L21.8224 38.9056C21.4057 39.1389 20.9062 38.7768 20.9993 38.3083L22.318 31.671C22.3559 31.4801 22.2925 31.2829 22.1496 31.1508L17.1809 26.5555Z" stroke="#FFFEFE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                             </g>
                             <defs>
-                            <clipPath id="clip0_864_108">
+                            <clippath id="clip0_864_108">
                             <rect width="24" height="24" fill="white" transform="translate(16 16)"/>
-                            </clipPath>
+                            </clippath>
                             </defs>
                         </svg>
                         <span>
@@ -1117,7 +1140,7 @@
                 <div class="cases__techs">
                     <div class="cases__tech">
                         <h4 class="techs-heading">Операционные системы</h4>
-                        <p class="techs-descr">iOS и iPadOS / Android / Linux / Windows / MacOS </p>
+                        <p class="techs-descr">iOS и ipadOS / Android / Linux / Windows / MacOS </p>
                     </div>
                     <div class="cases__tech">
                         <h4 class="techs-heading">Технологии Mobile</h4>
@@ -1125,11 +1148,11 @@
                     </div>
                     <div class="cases__tech">
                         <h4 class="techs-heading">Устройства</h4>
-                        <p class="techs-descr">iPhone и iPad / cмартфоны и планшеты на базе Android / Desktop </p>
+                        <p class="techs-descr">iphone и ipad / cмартфоны и планшеты на базе Android / Desktop </p>
                     </div>
                     <div class="cases__tech">
                         <h4 class="techs-heading">Технологии Backend</h4>
-                        <p class="techs-descr">C# / Elasticsearch / PostgreSQL / Redis / Docker / k8s / Gitlab CI / NodeJS / MongoDB</p>
+                        <p class="techs-descr">C# / Elasticsearch / postgreSQL / Redis / Docker / k8s / gitlab CI / NodeJS / MongoDB</p>
                     </div>
                 </div>
             </div>
@@ -1184,7 +1207,7 @@
     </main>
     <footer class="footer">
         <div class="container footer__container">
-            <a href="#header">
+            <a href="#header" class="footer__logo">
                 <img src="./assets/svg/footer-logo.svg" alt="pfm dev логотип">
             </a>
             <ul class="footer__nav">
